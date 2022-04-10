@@ -4,6 +4,8 @@ import 'package:flash_chat/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+// Grabs messages from Firebase and displays them in chat screen
+
 final _firestore = FirebaseFirestore.instance;
 late User loggedInUser;
 
